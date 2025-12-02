@@ -1,7 +1,12 @@
 path: .
 
-train: train/img
-val: val/img
+train:
+  images: train/img
+  labels: train/labels
+
+val:
+  images: val/img
+  labels: val/labels
 
 names:
   0: car
