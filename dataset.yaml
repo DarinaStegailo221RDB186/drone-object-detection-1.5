@@ -1,0 +1,9 @@
+path: .
+
+train: train/img
+val: val/img
+
+names:
+  0: car
+  1: bus
+  2: truck
