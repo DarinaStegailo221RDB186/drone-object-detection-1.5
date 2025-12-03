@@ -9,8 +9,6 @@ CLASS_MAP = {
 }
 
 
-
-
 def convert_bbox_to_yolo(img_width, img_height, bbox):
     # Converts [xmin, ymin, xmax, ymax] to YOLO normalized format
     xmin, ymin, xmax, ymax = bbox
