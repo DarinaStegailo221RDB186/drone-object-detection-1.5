@@ -2,11 +2,11 @@ task: detect
 mode: train
 model: yolov8s.pt
 data: dataset.yaml
-epochs: 10
+epochs: 20
 time: null
 patience: 100
-batch: 8
-imgsz: 320
+batch: 16
+imgsz: 512
 save: true
 save_period: -1
 cache: false
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Github\drone-object-detection-1.5\runs\detect\train
+save_dir: D:\Desktop\RTU\Datizrace un zināšanu atklāšana(1),2526-R\2_Lab\drone-object-detection-1.5\runs\detect\train
